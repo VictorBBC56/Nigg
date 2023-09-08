@@ -1,0 +1,23 @@
+@media (max-width: 800px) {
+    .container {
+        width: 100%;
+    }
+}
+
+.profile-container{
+    grid-template-columns: auto;
+}
+
+.profile-left{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container .bg-img{
+    height: 180px;
+}
+
+.profile-img img{
+    margin-top: -50%;
+}
